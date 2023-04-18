@@ -33,14 +33,14 @@ span{
 
 /*NavBar*/ 
 
-i{
+header i{
     font-size: 2rem;
     padding: 10px;
     margin-left: 220px;
 }
 
-i:hover,
-i:active{
+header i:hover,
+header i:active{
     cursor: pointer;
     color: red;
     transform: scale(1.1);
@@ -83,7 +83,7 @@ section{
 /*Section 1*/ 
 
 #one{
-    margin-bottom: 50px;
+    margin: 100px auto;
 }
 
 #one h2{
@@ -113,32 +113,67 @@ section{
     width: 300px;
     padding: 18px;
     margin: 5px auto;
+    color: black;
 }
 
 
 
 /*Booking Section*/ 
 
-#booking-section{
-  max-width: 400px;
-  margin: 0 auto;
-  border: 1px black solid;
-  display: flex;
- flex-direction: column;
+#booking{
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#booking form{
+    margin: 0 auto;
+    max-width: 300px;
+    border: 1px black solid;
+    padding: 10px;
 }
 
 select,
 input{
     width: 200px;
+    padding: 5px;
+}
+
+#search{
+    margin-top: 10px;
 }
 
 /*Section 2*/ 
 
+#two{
+    margin: 100px auto;
+}
 
+#two h1{
+    font-size: 3rem;
+}
+
+#two i{
+    font-size: 4rem;
+    color: blue;
+}
 
 /*Section 3*/ 
 
+#three h2{
+    font-size: 2.4rem;
+    margin-top: 0px;
+}
+
+#three p{
+    font-size: 1.2rem;
+}
+
 #car-display{
+    border: 1px black solid;
+    padding: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +193,11 @@ table{
     border: 1px black solid;
     margin: 0 auto;
 }
+
+table th{
+    text-align: center;
+}
+
 
 table td{
     border-left: 1px black solid;

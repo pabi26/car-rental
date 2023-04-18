@@ -6,7 +6,7 @@ export const cars = [
       transmission: "Automatic",
       horsepower: 710,
       price: 620,
-      image: "images/FerrariF8Tributo.webp"
+      image: "images/FerrariF8Tributo.jpg"
     },
     {
       model: "720S Spider",
@@ -51,7 +51,7 @@ export const cars = [
       transmission: "Automatic",
       horsepower: 495,
       price: 520,
-      image: "images/Corvette C8 Z51.png"
+      image: "images/Corvette C8 Z51.webp"
     },
     {
       model: "Ghost",

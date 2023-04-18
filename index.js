@@ -25,7 +25,7 @@ for (let i = 0; i < cars.length; i++) {
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>$${cars[i].price} per day</th>
+                                        <th colspan="2">$${cars[i].price} per day</th>
                                     </tr>
                                 </thead>
                                 <tbody>
