@@ -153,3 +153,7 @@ table td{
     border-left: 1px black solid;
 }
 
+.car{
+    display: none;
+}
+

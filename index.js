@@ -20,7 +20,7 @@ closeNavBarIcon.addEventListener('click', function() {
 for (let i = 0; i < cars.length; i++) {
     let carDetails = ` 
                         <button id="${cars[i].mark}${cars[i].model}">${cars[i].mark}${cars[i].model}</button>
-                        <div id="${cars[i].mark}">
+                        <div id="${cars[i].mark}" class="car">
                             <img src="${cars[i].image}" alt="">
                             <table>
                                 <thead>
