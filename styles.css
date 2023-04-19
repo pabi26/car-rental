@@ -306,10 +306,55 @@ table td{
 
 /*Questions section*/ 
 
+#questions{
+    margin: 100px auto;
+}
 
+#wuestions h4{
+    margin: 0px auto;
+}
+
+#questions h2{
+    margin-top: -20px;
+    font-size: 3rem;
+}
+
+#questions button{
+    width: 100%;
+    height: 60px;
+    font-size: 1.2rem;
+    border: 1px black solid;
+    background: lightgrey;
+}
+
+#questions button:hover,
+#questions button:active{
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+#question-one-answer,
+#question-two-answer,
+#question-three-answer{
+    display: none;
+}
 
 
 /*App Section*/ 
+
+#app{
+    margin: 100px auto;
+}
+
+#app h1{
+    font-size: 3rem;
+}
+
+#app{
+    font-size: 1.1rem;
+}
 
 
 
