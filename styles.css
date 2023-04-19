@@ -63,7 +63,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100vh;
+    height: 85vh;
 }
 
 nav{
@@ -97,7 +97,7 @@ section{
 /*Section 1*/ 
 
 #one{
-    margin: 100px auto;
+    margin: -50px auto;
 }
 
 #one h2{
@@ -107,7 +107,7 @@ section{
 }
 
 #one h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -128,8 +128,17 @@ section{
     padding: 18px;
     margin: 5px auto;
     color: black;
+    font-size: 1.5rem;
+    background-color: gold;
+    cursor: pointer;
 }
 
+#one button:hover,
+#one button:active{
+    transform: scale(1.03);
+    background-color: black;
+    color: gold;
+}
 
 
 /*Booking Section*/ 
