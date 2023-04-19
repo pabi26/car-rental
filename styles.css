@@ -75,6 +75,10 @@ nav a:active{
     transform: scale(1.05);
 }
 
+a {
+    text-decoration: none !important;
+}
+
 section{
     max-width: 350px;
     margin: 0 auto;
@@ -341,7 +345,6 @@ table td{
     display: none;
 }
 
-
 /*App Section*/ 
 
 #app{
@@ -356,7 +359,25 @@ table td{
     font-size: 1.1rem;
 }
 
+#app img{
+    width: 300px;
+}
+
+#app #apple{
+    width: 265px;
+    height: 85px;
+}
 
 
+/*Footer Section */ 
 
-  /*Footer Section */ 
+#footer{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#footer-navbar,
+#location-details{
+    display: flex;
+    flex-direction: column;
+}
