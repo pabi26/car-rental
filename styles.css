@@ -1,13 +1,18 @@
 body{
     margin: 0px;
     text-align: center;
+    background-color: #000000;
     
+}
+
+main{
+    background-color: #e5e5e5;
 }
 
 /*Header*/ 
 
 header{
-    background-color: #B4F5F0;
+    background-color: #000000;
 }
 
 #main-header{
@@ -18,31 +23,33 @@ header{
 }
 
 header h1{
+    color: #ffffff;
     font-size: 16px;
     padding-top: 8px;
 }
 
 span{
-    color: #0476D0;
+    color: gold;
 }
 
 #logo-image{
-    width: 50px;
+    width: 120px;
     height: 50px;
 }
 
 /*NavBar*/ 
 
 header i{
+    color: gold;
     font-size: 2rem;
     padding: 10px;
-    margin-left: 220px;
+    margin-left: 120px;
 }
 
 header i:hover,
 header i:active{
     cursor: pointer;
-    color: red;
+    color: rgb(255, 255, 255);
     transform: scale(1.1);
 }
 

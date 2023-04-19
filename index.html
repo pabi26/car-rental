@@ -9,395 +9,396 @@
     <title>LuxuryRentals</title>
 </head>
 <body>
-    <header>
-        <div id="main-header">
-            <img src="images/blue-car-logo-png.webp" alt="Company logo" id="logo-image">
-            <h1>Luxury<span>Rentals</span></h1>
-            <i id="navBarIcon" class="fa-solid fa-bars"></i>
-            <i id="closeNavBarIcon" class="fa-solid fa-x"></i>
-        </div>
+    <main>
+        <header>
+            <div id="main-header">
+                <img src="images/zent-logo-png-car-22.png" alt="Company logo" id="logo-image">
+                <h1>Luxury<span>Rentals</span></h1>
+                <i id="navBarIcon" class="fa-solid fa-bars"></i>
+                <i id="closeNavBarIcon" class="fa-solid fa-x"></i>
+            </div>
+            
+            <nav id="nav-bar">
+                <a href="#one">Home</a>
+                <a href="#booking">Booking</a>
+                <a href="#two">About</a>
+                <a href="#three">Models</a>
+                <a href="#five">Testimonials</a>
+                <a href="#questions">Questions</a>
+                <a href="#app">Download the App</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </header>
+
+        <section id="one">
+            <h2>Experience luxury on the road</h2>
+            <h1>Don't wait! Rent now and hit the road!</h1>
+            <p>
+                Rent the car of your dreams for unbeatable prices!
+            </p>
+            <div id="section-one-btns">
+                <button>Book A Car</button>
+                <button>Learn More ></button>
+            </div>
+        </section>
+
+        <section id="booking">
+            <h3>Book a car Now!</h3>
+            <form>
+                <h4>Select Your Model</h4>
+                <select id="car-type" name="car-type">
+                    <option value="Ferrari F8 Tributo">Ferrari F8 Tributo</option>
+                    <option value="McLaren 720S Spider">McLaren 720S Spider</option>
+                    <option value="Lamborghini Aventador">Lamborghini Aventador</option>
+                    <option value="Porsche GT3 RS">Porsche GT3 RS</option>
+                    <option value="Nissan GTR">Nissan GTR</option>
+                    <option value="Corvette C8 Z51">Corvette C8 Z51</option>
+                    <option value="Rolls Royce Ghost">Rolls Royce Ghost</option>
+                    <option value="Aston Martin Vantage">Aston Martin Vantage</option>
+                    <option value="Range Rover Sport SVR">Range Rover Sport SVR</option>
+                    <option value="Bentley Continental GT">Bentley Continental GT</option>
+                    
+                </select>
+
+                <h4>Pick-up</h4>
+                <select id="city-select" name="city">
+                    <option value="toronto">Toronto</option>
+                    <option value="vancouver">Vancouver</option>
+                    <option value="montreal">Montreal</option>
+                    <option value="calgary">Calgary</option>
+                    <option value="ottawa">Ottawa</option>
+                    <option value="edmonton">Edmonton</option>
+                    <option value="quebec-city">Quebec City</option>
+                    <option value="winnipeg">Winnipeg</option>
+                    <option value="halifax">Halifax</option>
+                </select>
+
+
+                <h4>Drop-off</h4>
+                <select id="city-select" name="city">
+                    <option value="toronto">Toronto</option>
+                    <option value="vancouver">Vancouver</option>
+                    <option value="montreal">Montreal</option>
+                    <option value="calgary">Calgary</option>
+                    <option value="ottawa">Ottawa</option>
+                    <option value="edmonton">Edmonton</option>
+                    <option value="quebec-city">Quebec City</option>
+                    <option value="winnipeg">Winnipeg</option>
+                    <option value="halifax">Halifax</option>
+                </select>
+
+
+                <h4>Pick-up</h4>
+                <input type="date" id="date-input" name="date">
+
+                <h4>Drop-off</h4>
+                <input type="date" id="date-input" name="date">
+
+                <input type="Search" value="Search" id="search">
+            </form>  
         
-        <nav id="nav-bar">
-            <a href="#one">Home</a>
-            <a href="#booking">Booking</a>
-            <a href="#two">About</a>
-            <a href="#three">Models</a>
-            <a href="#five">Testimonials</a>
-            <a href="#questions">Questions</a>
-            <a href="#app">Download the App</a>
-            <a href="#footer">Contact</a>
-        </nav>
-    </header>
+        </section>
 
-    <section id="one">
-        <h2>Experience luxury on the road</h2>
-        <h1>Don't wait! Rent now and hit the road!</h1>
-        <p>
-            Rent the car of your dreams for unbeatable prices!
-        </p>
-        <div id="section-one-btns">
-            <button>Book A Car</button>
-            <button>Learn More ></button>
-        </div>
-    </section>
-
-    <section id="booking">
-        <h3>Book a car Now!</h3>
-        <form>
-            <h4>Select Your Model</h4>
-            <select id="car-type" name="car-type">
-                <option value="Ferrari F8 Tributo">Ferrari F8 Tributo</option>
-                <option value="McLaren 720S Spider">McLaren 720S Spider</option>
-                <option value="Lamborghini Aventador">Lamborghini Aventador</option>
-                <option value="Porsche GT3 RS">Porsche GT3 RS</option>
-                <option value="Nissan GTR">Nissan GTR</option>
-                <option value="Corvette C8 Z51">Corvette C8 Z51</option>
-                <option value="Rolls Royce Ghost">Rolls Royce Ghost</option>
-                <option value="Aston Martin Vantage">Aston Martin Vantage</option>
-                <option value="Range Rover Sport SVR">Range Rover Sport SVR</option>
-                <option value="Bentley Continental GT">Bentley Continental GT</option>
-                
-            </select>
-
-            <h4>Pick-up</h4>
-            <select id="city-select" name="city">
-                <option value="toronto">Toronto</option>
-                <option value="vancouver">Vancouver</option>
-                <option value="montreal">Montreal</option>
-                <option value="calgary">Calgary</option>
-                <option value="ottawa">Ottawa</option>
-                <option value="edmonton">Edmonton</option>
-                <option value="quebec-city">Quebec City</option>
-                <option value="winnipeg">Winnipeg</option>
-                <option value="halifax">Halifax</option>
-            </select>
-
-
-            <h4>Drop-off</h4>
-            <select id="city-select" name="city">
-                <option value="toronto">Toronto</option>
-                <option value="vancouver">Vancouver</option>
-                <option value="montreal">Montreal</option>
-                <option value="calgary">Calgary</option>
-                <option value="ottawa">Ottawa</option>
-                <option value="edmonton">Edmonton</option>
-                <option value="quebec-city">Quebec City</option>
-                <option value="winnipeg">Winnipeg</option>
-                <option value="halifax">Halifax</option>
-            </select>
-
-
-            <h4>Pick-up</h4>
-            <input type="date" id="date-input" name="date">
-
-            <h4>Drop-off</h4>
-            <input type="date" id="date-input" name="date">
-
-            <input type="Search" value="Search" id="search">
-        </form>  
-      
-    </section>
-
-    <section id="two">
-        <div>
-            <img src="images/605-6058527_red-sports-car-top-view-png-icons-car.png" alt="">
-            <i class="fa-solid fa-car fa-bounce fa-lg"></i>
-            <h3>Select A Car</h3>
-            <p>
-                We Offer a big range of luxury vehicles for all of your 
-                driving needs and wants
-            </p> 
-        </div>
-        <div>
-            <i class="fa-solid fa-headset fa-beat fa-lg"></i>
-            <h3>Contact A Operater</h3>
-            <p>
-                Our Knowledgeable and friednly operators are always ready to assist you
-                with any questions of concerns regardless if whether it is night or day
-            </p>
-        </div>
-        <div>
-            <h3>Let's Drive</h3>
-            <p>
-                Whether you're hitting the open road or just want to cruise the city in luxury,
-                We've got you covered with our wide range of cars
-            </p>
-        </div>
-    </section>
-
-    <section id="three">
-        <h3>Vehicle Models</h3>
-        <h2>Our Luxury Rentals</h2>
-        <p>
-            Choose from a variety of our amazing high end vehicles to rent for your next
-            adventure
-        </p>
-        <div id="car-display">
-        </div>
-    </section>
-
-
-    <section id="four">
-        <div id="four-part-one">
-            <h2>Why Choose Us?</h2>
-            <ul>
-                <li>
-                    We offer the latest and most luxurious cars on the market
-                </li>
-                <li>
-                    Our rental process is quick and hassle-free
-                </li>
-                <li>
-                    We provide 24/7 customer support to assist you with any issues
-                </li>
-                <li>
-                    All of our cars are thoroughly inspected and maintained to ensure your safety
-                </li>
-                <li>
-                    We offer flexible rental terms to fit your schedule and budget
-                </li>
-                <li>
-                    We provide convenient delivery and pickup services to your desired location
-                </li>
-                <li>
-                    Our rental rates are competitive and affordable
-                </li>
-                <li>
-                    We value our customers and strive to provide the best rental experience
-                    possible
-                </li>
-            </ul>
-        </div>
-
-        <div id="four-part-two">
+        <section id="two">
             <div>
-                <img src="images/071019_JBF_AC_MAP_730X442_R2.png" alt="">
-                <div>
-                    <h3>Cross Country Drive</h3>
-                    <p>
-                        Take your driving experience to the next level with out top-notch 
-                        vehicles for your cross-country adventures.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <i class="fa-solid fa-sack-dollar fa-beat"></i>
-                <div>
-                    <h3>All Inclusive Pricing</h3>
-                    <p>
-                        Get evertthing you need in one convenient transparent price with our
-                        all-inclusive pricing policy.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <i class="fa-solid fa-hand-holding-dollar fa-flip"></i>
-                <div>
-                    <h3>No Hidden Charges</h3>
-                    <p>
-                        Enjoy peace of mind with our no hidden charges policy. We believe in
-                        transparent and honest pricing. What you see is what you pay.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="five">
-        <h3>Reviewed by People</h3>
-        <h2>Client's Tentimonisals</h2>
-        <p>
-            Discover the positive impact we've made on the clients by reading through their
-            testimonials. Our clients have experienced our service and results, and they'reading
-            eager to share their postive ecperiences with you.
-        </p>
-
-        <div id="review">
-            <div>
+                <img src="images/605-6058527_red-sports-car-top-view-png-icons-car.png" alt="">
+                <i class="fa-solid fa-car fa-bounce fa-lg"></i>
+                <h3>Select A Car</h3>
                 <p>
-                    "I recently rented a luxury car from this company and I must say, I was blown 
-                    away by the quality of their cars. The car was in excellent condition and drove 
-                    like a dream. The interior was clean and comfortable, and all the features 
-                    worked perfectly."
-                </p>
-                <div class="review-person">
-                    <img src="images/john.jpg" alt="">
-                    <h4>Jon Doe</h4>
-                </div>
+                    We Offer a big range of luxury vehicles for all of your 
+                    driving needs and wants
+                </p> 
             </div>
             <div>
+                <i class="fa-solid fa-headset fa-beat fa-lg"></i>
+                <h3>Contact A Operater</h3>
                 <p>
-                    "The luxury cars at this rental service are top-notch. I had a great time
-                     driving around in one of their sports cars. Would definitely recommend!"
+                    Our Knowledgeable and friednly operators are always ready to assist you
+                    with any questions of concerns regardless if whether it is night or day
                 </p>
-                <div class="review-person">
-                    <img src="images/mary.jpg" alt="">
-                    <h4>Mary Jane</h4>
+            </div>
+            <div>
+                <h3>Let's Drive</h3>
+                <p>
+                    Whether you're hitting the open road or just want to cruise the city in luxury,
+                    We've got you covered with our wide range of cars
+                </p>
+            </div>
+        </section>
+
+        <section id="three">
+            <h3>Vehicle Models</h3>
+            <h2>Our Luxury Rentals</h2>
+            <p>
+                Choose from a variety of our amazing high end vehicles to rent for your next
+                adventure
+            </p>
+            <div id="car-display">
+            </div>
+        </section>
+
+
+        <section id="four">
+            <div id="four-part-one">
+                <h2>Why Choose Us?</h2>
+                <ul>
+                    <li>
+                        We offer the latest and most luxurious cars on the market
+                    </li>
+                    <li>
+                        Our rental process is quick and hassle-free
+                    </li>
+                    <li>
+                        We provide 24/7 customer support to assist you with any issues
+                    </li>
+                    <li>
+                        All of our cars are thoroughly inspected and maintained to ensure your safety
+                    </li>
+                    <li>
+                        We offer flexible rental terms to fit your schedule and budget
+                    </li>
+                    <li>
+                        We provide convenient delivery and pickup services to your desired location
+                    </li>
+                    <li>
+                        Our rental rates are competitive and affordable
+                    </li>
+                    <li>
+                        We value our customers and strive to provide the best rental experience
+                        possible
+                    </li>
+                </ul>
+            </div>
+
+            <div id="four-part-two">
+                <div>
+                    <img src="images/071019_JBF_AC_MAP_730X442_R2.png" alt="">
+                    <div>
+                        <h3>Cross Country Drive</h3>
+                        <p>
+                            Take your driving experience to the next level with out top-notch 
+                            vehicles for your cross-country adventures.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sack-dollar fa-beat"></i>
+                    <div>
+                        <h3>All Inclusive Pricing</h3>
+                        <p>
+                            Get evertthing you need in one convenient transparent price with our
+                            all-inclusive pricing policy.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hand-holding-dollar fa-flip"></i>
+                    <div>
+                        <h3>No Hidden Charges</h3>
+                        <p>
+                            Enjoy peace of mind with our no hidden charges policy. We believe in
+                            transparent and honest pricing. What you see is what you pay.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <h3>View More Reviews</h3>
-    </section>
+        </section>
 
+        <section id="five">
+            <h3>Reviewed by People</h3>
+            <h2>Client's Tentimonisals</h2>
+            <p>
+                Discover the positive impact we've made on the clients by reading through their
+                testimonials. Our clients have experienced our service and results, and they'reading
+                eager to share their postive ecperiences with you.
+            </p>
 
-    <section id="questions">
-        <h4>FAQ</h4>
-        <h2>Frequently Asked Questions</h2>
-        <p>
-            Frequently asked questions about the car rental bookinf process on our website: Answers
-            to the common concerns and inquiries
-        </p>
-        <button id="question-one">What is special about comparing rental car deals?</button>
-        <div id="question-one-answer">
-            <p>
-                Comparing rental car deals is essential because it allows you to make an informed
-                decision about which rental car company to choose, which car to rent, and which
-                deal to take advantage of. When it comes to renting a car, prices can vary 
-                significantly based on the rental company, the location, the type of car, 
-                the time of year, and the length of the rental.
-            </p>
-            <p>
-                By comparing rental car deals, you can find the best possible rates for the car 
-                you want to rent. You can also compare the terms and conditions of each deal, 
-                such as the mileage allowance, the insurance coverage, and any additional fees 
-                or charges that may apply. This can help you avoid any surprises or hidden 
-                costs when you pick up your rental car.
-            </p>
-            <p>
-                In addition to price and terms, comparing rental car deals also allows you 
-                to choose a rental company that has a good reputation for customer service 
-                and reliability. By reading reviews and comparing ratings, you can find a 
-                rental company that has a history of providing excellent service and reliable 
-                vehicles. This can give you peace of mind and ensure that you have a positive 
-                rental experience.
-            </p>
-        </div>
-        <button id="question-two">How do i find the car rental deals?</button>
-        <div id="question-two-answer">
-            <p>
-                There are several ways to find car rental deals. One of the easiest and most 
-                convenient ways is to use online travel booking sites. These sites allow you 
-                to compare prices and rental options from different car rental companies in 
-                one place. You can also use search engines to find car rental companies in 
-                your desired location and compare their prices and rental options.
-            </p>
-            <p>
-                Another way to find car rental deals is to sign up for loyalty programs and 
-                newsletters from car rental companies. These programs and newsletters often 
-                offer exclusive deals, discounts, and promotional codes for their subscribers.
-            </p>
-            <p>
-                It's also a good idea to book your car rental in advance. Many car rental 
-                companies offer discounts for early bookings or extended rentals.
-            </p>
-            <p>
-                Lastly, you can also consider using third-party booking sites that offer 
-                discount codes or cashback offers. These sites can help you save money on your 
-                car rental and often have exclusive deals with car rental companies. However, 
-                it's important to read the fine print and terms and conditions before booking 
-                to ensure that you are getting the best deal and are aware of any restrictions 
-                or fees.
-            </p>
-        </div>
-        <button id="question-three">How do i find such low rental car prices?</button>
-        <div id="question-two-answer">
-            <p>
-                There are several ways to find low rental car prices. Here are some tips:
-            </p>
-            <ul>
-                <li>
-                    Book early: The earlier you book your rental car, the more likely you 
-                    are to find a better deal. Rental car prices tend to go up as the date 
-                    approaches, so booking early can save you a lot of money.
-                </li>
-                <li>
-                    Compare prices: There are many rental car companies out there, and each 
-                    one has its own pricing structure. Use online travel agencies or comparison 
-                    sites to compare prices from multiple rental car companies at once. 
-                </li>
-                <li>
-                    Look for discounts: Rental car companies offer discounts for a variety of 
-                    reasons, such as AAA membership, military service, and senior citizen status.
-                    Be sure to check for any available discounts that you may be eligible for.
-                </li>
-                <li>
-                    Consider off-airport locations: Rental car prices at airport locations tend 
-                    to be higher due to airport fees. Consider renting a car from a location 
-                    off-airport, which can often result in significant savings.
-                </li>
-                <li>
-                    Be flexible: Being flexible with your travel dates and pickup/dropoff 
-                    locations can also help you find lower rental car prices. Try adjusting 
-                    your travel plans to see if you can get a better deal.
-                </li>
-            </ul>
-        </div>
-       
-    </section>
-
-    <section id="app">
-        <div>
-            <h1>DOWN OUR APP TO GET THE MOST OUT OF IT!</h1>
-            <p>
-                If you're looking for a luxury car rental experience, look no further than our app. 
-                With a wide range of high-end vehicles to choose from, our app makes it easy to 
-                find the perfect ride for any occasion. Whether you're planning a special 
-                weekend getaway or simply want to make a statement at your next event, our app has 
-                got you covered. Download now to start browsing our selection of luxury cars and 
-                book your dream ride today.
-            </p>
-            <div>
-                <img src="images/goodleStore.png" alt="Google Play"></div>
+            <div id="review">
+                <div>
+                    <p>
+                        "I recently rented a luxury car from this company and I must say, I was blown 
+                        away by the quality of their cars. The car was in excellent condition and drove 
+                        like a dream. The interior was clean and comfortable, and all the features 
+                        worked perfectly."
+                    </p>
+                    <div class="review-person">
+                        <img src="images/john.jpg" alt="">
+                        <h4>Jon Doe</h4>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        "The luxury cars at this rental service are top-notch. I had a great time
+                        driving around in one of their sports cars. Would definitely recommend!"
+                    </p>
+                    <div class="review-person">
+                        <img src="images/mary.jpg" alt="">
+                        <h4>Mary Jane</h4>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="images/appleStore.png" alt="App Store" id="apple"></div>
-            </div>
-        </div>
-        <img src="" alt="App st">
-    </section>
+            <h3>View More Reviews</h3>
+        </section>
 
-    <footer id="footer">
-        <h2>Contact Us:</h2>
-        <div id="contact-details">
-            <h3>Call Us:</h3>
-            <p>General Inquiries/Bookings:</p>
-            <h4><i></i>(123) 456-789</h4>
-            <p>Vehicle Rentals:</p>
-            <h4><i></i>(987) 654-321</h4>
-            <h3>Email Us:</h3>
-            <h4><i></i>LuxuryRentals@gmail.com</h4>
-        </div>
-        <h3>Company</h3>
-        <div id="footer-navbar">
-            <a href="#one">Home</a>
-            <a href="#booking">Booking</a>
-            <a href="#two">About</a>
-            <a href="#three">Models</a>
-            <a href="#five">Testimonials</a>
-            <a href="#questions">Questions</a>
-            <a href="#app">Download the App</a>
-        </div>
-        <h3>Locations</h3>
-        <div id="location-details">
-            <a>Toronto</a>
-            <a>Vancouver</a>
-            <a>Montreal</a>
-            <a>Calgary</a>
-            <a>Ottawa</a>
-            <a>Edmonton</a>
-            <a>Quebec City</a>
-            <a>Winnipeg</a>
-            <a>Halifax</a>
-        </div>
-        <h3>Working Hours</h3>
-        <div id="working-hours">
-            <p>Mon - Friday: 9:00AM - 9:00PM</p>
-            <p>Sat: 9:00AM - 5:00PM</p>
-            <p>Sun: Closed</p>
-        </div>
-       
-    </footer>
+
+        <section id="questions">
+            <h4>FAQ</h4>
+            <h2>Frequently Asked Questions</h2>
+            <p>
+                Frequently asked questions about the car rental bookinf process on our website: Answers
+                to the common concerns and inquiries
+            </p>
+            <button id="question-one">What is special about comparing rental car deals?</button>
+            <div id="question-one-answer">
+                <p>
+                    Comparing rental car deals is essential because it allows you to make an informed
+                    decision about which rental car company to choose, which car to rent, and which
+                    deal to take advantage of. When it comes to renting a car, prices can vary 
+                    significantly based on the rental company, the location, the type of car, 
+                    the time of year, and the length of the rental.
+                </p>
+                <p>
+                    By comparing rental car deals, you can find the best possible rates for the car 
+                    you want to rent. You can also compare the terms and conditions of each deal, 
+                    such as the mileage allowance, the insurance coverage, and any additional fees 
+                    or charges that may apply. This can help you avoid any surprises or hidden 
+                    costs when you pick up your rental car.
+                </p>
+                <p>
+                    In addition to price and terms, comparing rental car deals also allows you 
+                    to choose a rental company that has a good reputation for customer service 
+                    and reliability. By reading reviews and comparing ratings, you can find a 
+                    rental company that has a history of providing excellent service and reliable 
+                    vehicles. This can give you peace of mind and ensure that you have a positive 
+                    rental experience.
+                </p>
+            </div>
+            <button id="question-two">How do i find the car rental deals?</button>
+            <div id="question-two-answer">
+                <p>
+                    There are several ways to find car rental deals. One of the easiest and most 
+                    convenient ways is to use online travel booking sites. These sites allow you 
+                    to compare prices and rental options from different car rental companies in 
+                    one place. You can also use search engines to find car rental companies in 
+                    your desired location and compare their prices and rental options.
+                </p>
+                <p>
+                    Another way to find car rental deals is to sign up for loyalty programs and 
+                    newsletters from car rental companies. These programs and newsletters often 
+                    offer exclusive deals, discounts, and promotional codes for their subscribers.
+                </p>
+                <p>
+                    It's also a good idea to book your car rental in advance. Many car rental 
+                    companies offer discounts for early bookings or extended rentals.
+                </p>
+                <p>
+                    Lastly, you can also consider using third-party booking sites that offer 
+                    discount codes or cashback offers. These sites can help you save money on your 
+                    car rental and often have exclusive deals with car rental companies. However, 
+                    it's important to read the fine print and terms and conditions before booking 
+                    to ensure that you are getting the best deal and are aware of any restrictions 
+                    or fees.
+                </p>
+            </div>
+            <button id="question-three">How do i find such low rental car prices?</button>
+            <div id="question-two-answer">
+                <p>
+                    There are several ways to find low rental car prices. Here are some tips:
+                </p>
+                <ul>
+                    <li>
+                        Book early: The earlier you book your rental car, the more likely you 
+                        are to find a better deal. Rental car prices tend to go up as the date 
+                        approaches, so booking early can save you a lot of money.
+                    </li>
+                    <li>
+                        Compare prices: There are many rental car companies out there, and each 
+                        one has its own pricing structure. Use online travel agencies or comparison 
+                        sites to compare prices from multiple rental car companies at once. 
+                    </li>
+                    <li>
+                        Look for discounts: Rental car companies offer discounts for a variety of 
+                        reasons, such as AAA membership, military service, and senior citizen status.
+                        Be sure to check for any available discounts that you may be eligible for.
+                    </li>
+                    <li>
+                        Consider off-airport locations: Rental car prices at airport locations tend 
+                        to be higher due to airport fees. Consider renting a car from a location 
+                        off-airport, which can often result in significant savings.
+                    </li>
+                    <li>
+                        Be flexible: Being flexible with your travel dates and pickup/dropoff 
+                        locations can also help you find lower rental car prices. Try adjusting 
+                        your travel plans to see if you can get a better deal.
+                    </li>
+                </ul>
+            </div>
         
+        </section>
+
+        <section id="app">
+            <div>
+                <h1>DOWN OUR APP TO GET THE MOST OUT OF IT!</h1>
+                <p>
+                    If you're looking for a luxury car rental experience, look no further than our app. 
+                    With a wide range of high-end vehicles to choose from, our app makes it easy to 
+                    find the perfect ride for any occasion. Whether you're planning a special 
+                    weekend getaway or simply want to make a statement at your next event, our app has 
+                    got you covered. Download now to start browsing our selection of luxury cars and 
+                    book your dream ride today.
+                </p>
+                <div>
+                    <img src="images/goodleStore.png" alt="Google Play"></div>
+                </div>
+                <div>
+                    <img src="images/appleStore.png" alt="App Store" id="apple"></div>
+                </div>
+            </div>
+            <img src="" alt="App st">
+        </section>
+
+        <footer id="footer">
+            <h2>Contact Us:</h2>
+            <div id="contact-details">
+                <h3>Call Us:</h3>
+                <p>General Inquiries/Bookings:</p>
+                <h4><i></i>(123) 456-789</h4>
+                <p>Vehicle Rentals:</p>
+                <h4><i></i>(987) 654-321</h4>
+                <h3>Email Us:</h3>
+                <h4><i></i>LuxuryRentals@gmail.com</h4>
+            </div>
+            <h3>Company</h3>
+            <div id="footer-navbar">
+                <a href="#one">Home</a>
+                <a href="#booking">Booking</a>
+                <a href="#two">About</a>
+                <a href="#three">Models</a>
+                <a href="#five">Testimonials</a>
+                <a href="#questions">Questions</a>
+                <a href="#app">Download the App</a>
+            </div>
+            <h3>Locations</h3>
+            <div id="location-details">
+                <a>Toronto</a>
+                <a>Vancouver</a>
+                <a>Montreal</a>
+                <a>Calgary</a>
+                <a>Ottawa</a>
+                <a>Edmonton</a>
+                <a>Quebec City</a>
+                <a>Winnipeg</a>
+                <a>Halifax</a>
+            </div>
+            <h3>Working Hours</h3>
+            <div id="working-hours">
+                <p>Mon - Friday: 9:00AM - 9:00PM</p>
+                <p>Sat: 9:00AM - 5:00PM</p>
+                <p>Sun: Closed</p>
+            </div>
+        
+        </footer>
+            
    
 
  
@@ -405,7 +406,7 @@
         
     
       
-
+    </main>
     <script  type="module" src="index.js"></script>
     
 </body>
