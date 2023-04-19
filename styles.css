@@ -162,6 +162,10 @@ input{
 
 /*Section 3*/ 
 
+#three{
+    margin: 100px auto;
+}
+
 #three h2{
     font-size: 2.4rem;
     margin-top: 0px;
@@ -172,7 +176,6 @@ input{
 }
 
 #car-display{
-    border: 1px black solid;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -190,32 +193,115 @@ input{
 }
 
 table{
-    border: 1px black solid;
+    width: 260px;
     margin: 0 auto;
+    background-color: orange;
 }
+
 
 table th{
     text-align: center;
+    padding: 5px;
+    
+    background-color: white;
 }
 
+thead th{
+    background-color: orange;
+    font-size: 1.8rem;
+}
 
 table td{
     border-left: 1px black solid;
+    background-color: white;
 }
 
+#car-display .reserve-btn{
+    width: 260px;
+}
+
+.car{
+    display: none;
+}
 
 /*Section 4*/ 
 
+#four-part-one,
+#four-part-two{
+    margin: 100px auto;
+}
 
+#four h2{
+    font-size: 2rem;
+}
 
+#four li{
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 10px auto;
+}
 
+#four-part-two img{
+    width: 250px;
+}
 
+#four-part-two #image-one{
+    width: 150px;
+}
+
+#four-part-two i{
+    font-size: 4rem;
+    color: black;
+}
 
 
 
 /*Section 5*/ 
 
+#five{
+    margin: 100px auto;
+}
 
+#five h3{
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+#five h2{
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#five #review{
+    margin-top: 80px;
+}
+
+#five #review p{
+    max-width: 300px;
+    margin: 9px auto;
+    font-size: 1.3rem;
+}
+
+#five #review img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+#five .review-person{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: -15px;
+}
+
+#five .review-person h4{
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+    font-size: 1.2rem;
+}
 
 
 /*Questions section*/ 

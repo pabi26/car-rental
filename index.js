@@ -24,9 +24,7 @@ for (let i = 0; i < cars.length; i++) {
                             <img src="${cars[i].image}" alt="">
                             <table>
                                 <thead>
-                                    <tr>
-                                        <th colspan="2">$${cars[i].price} per day</th>
-                                    </tr>
+                                    <th colspan="2">$${cars[i].price}/rent per day</th>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -51,6 +49,7 @@ for (let i = 0; i < cars.length; i++) {
                                     </tr>
                                 </tbody>
                             </table>
+                            <button class="reserve-btn">Reserve Now</button>
                         </div>
                   `;
     document.getElementById('car-display').innerHTML += carDetails;
