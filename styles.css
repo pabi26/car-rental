@@ -44,7 +44,7 @@ header i{
     color: gold;
     font-size: 2rem;
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 header i:hover,
@@ -517,4 +517,8 @@ table td{
 
 #footer p{
     font-size: 1.3rem;
+}
+
+.number{
+    color: gold;
 }
