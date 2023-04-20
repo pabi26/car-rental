@@ -50,7 +50,7 @@ header i{
 header i:hover,
 header i:active{
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     transform: scale(1.1);
 }
 
@@ -74,7 +74,7 @@ nav{
 nav a{
     margin-left: 40px;
     padding: 4px;
-    color: #0476D0;
+    color: gold;
     font-size: 1.7rem;
 }
 
@@ -97,7 +97,7 @@ section{
 /*Section 1*/ 
 
 #one{
-    margin: -50px auto;
+    margin: -50px auto 100px auto;
 }
 
 #one h2{
@@ -131,6 +131,7 @@ section{
     font-size: 1.5rem;
     background-color: gold;
     cursor: pointer;
+    border: 1px black solid;
 }
 
 #one button:hover,
@@ -138,6 +139,7 @@ section{
     transform: scale(1.03);
     background-color: black;
     color: gold;
+    border: 1px gold solid;
 }
 
 
@@ -149,23 +151,61 @@ section{
     border: 1px black solid;
     display: flex;
     flex-direction: column;
+    background-color: #000000;
+    color: gold;
+    border-radius: 15px;
+}
+
+#booking:hover,
+#booking:active{
+    transform: scale(1.1);
 }
 
 #booking form{
-    margin: 0 auto;
+    margin: -10px auto 15px auto;
     max-width: 300px;
     border: 1px black solid;
-    padding: 10px;
+    padding: 10px 0px 15px 0px;
+    background-color: #14213d;
+    border-radius: 15px;
+}
+
+#booking h3{
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#booking h4{
+    margin-bottom: 0px;
 }
 
 select,
 input{
+    text-align: center;
     width: 200px;
     padding: 5px;
+    cursor: pointer;
+}
+
+#date-input{
+    width: 187px;
 }
 
 #search{
     margin-top: 10px;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+
+#search:hover,
+#search:active{
+    background-color: #000000;
+    color: gold;
+    border: 1px gold solid;
 }
 
 /*Section 2*/ 
@@ -174,13 +214,17 @@ input{
     margin: 100px auto;
 }
 
+#select-car-div{
+    margin-bottom: 60px;
+}
+
 #two h1{
     font-size: 3rem;
 }
 
 #two i{
     font-size: 4rem;
-    color: blue;
+    color: #14213d;
 }
 
 /*Section 3*/ 
@@ -190,9 +234,14 @@ input{
 }
 
 #three h2{
-    font-size: 2.4rem;
+    font-size: 3rem;
     margin-top: 0px;
 }
+
+#three h3{
+    margin-bottom: 0px;
+}
+
 
 #three p{
     font-size: 1.2rem;
@@ -208,17 +257,34 @@ input{
     width: 300px;
     height: 50px;
     margin: 5px auto;
+    cursor: pointer;
+    background-color: #000000;
+    color: gold;
+    border: 1px gold solid;
+    font-size: 1.5rem;
+}
+
+#car-display button:hover,
+#car-display button:active{
+    transform: scale(1.2);
+    background-color: #14213d ;
 }
 
 #car-display img{
-    width: 300px;
-    margin: 0 auto;
+    width: 350px;
+    margin: 30px auto;
 }
+
+#car-display img:hover,
+#car-display img:active{
+    transform: scale(1.2);
+}
+
 
 table{
     width: 260px;
     margin: 0 auto;
-    background-color: orange;
+    background-color: #14213d;
 }
 
 
@@ -230,7 +296,7 @@ table th{
 }
 
 thead th{
-    background-color: orange;
+    background-color: gold;
     font-size: 1.8rem;
 }
 
@@ -247,6 +313,7 @@ table td{
     display: none;
 }
 
+
 /*Section 4*/ 
 
 #four-part-one,
@@ -255,13 +322,17 @@ table td{
 }
 
 #four h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+#four ul{
+    margin-right: 40px;
 }
 
 #four li{
     font-size: 1.2rem;
     list-style: none;
-    margin: 10px auto;
+    margin: 25px auto;
 }
 
 #four-part-two img{
@@ -291,22 +362,23 @@ table td{
 }
 
 #five h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
-#five #review{
+#five #reviews{
     margin-top: 80px;
 }
 
-#five #review p{
+#five #reviews p{
     max-width: 300px;
     margin: 9px auto;
     font-size: 1.3rem;
+    margin-bottom: 20px;
 }
 
-#five #review img{
+#five #reviews img{
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -326,15 +398,30 @@ table td{
     font-size: 1.2rem;
 }
 
+#five #review{
+    border: 1px black solid;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#five #review:hover,
+#five #review:active{
+    transform: scale(1.1);
+}
 
 /*Questions section*/ 
+
+#wuestions{
+    width: 400px;
+}
 
 #questions{
     margin: 100px auto;
 }
 
-#wuestions h4{
-    margin: 0px auto;
+#questions h4{
+    margin: 10px auto;
 }
 
 #questions h2{
@@ -343,20 +430,22 @@ table td{
 }
 
 #questions button{
+    margin: 5px auto;
     width: 100%;
-    height: 60px;
-    font-size: 1.2rem;
-    border: 1px black solid;
-    background: lightgrey;
+    font-size: 1.5rem;
+    border: 1px gold solid;
+    background: #000000;
+    border-radius: 15px;
+    color: #fca311;
+    padding: 10px;
 }
 
 #questions button:hover,
 #questions button:active{
-    background-color: blue;
+    background-color: #14213d;
     cursor: pointer;
     transform: scale(1.02);
 }
-
 
 #question-one-answer,
 #question-two-answer,
@@ -364,14 +453,17 @@ table td{
     display: none;
 }
 
+
+
+
 /*App Section*/ 
 
 #app{
     margin: 100px auto;
 }
 
-#app h1{
-    font-size: 3rem;
+#app h2{
+    font-size: 2.9rem;
 }
 
 #app{
@@ -392,11 +484,37 @@ table td{
 
 #footer{
     text-align: left;
-    margin-left: 10px;
+    padding: 40px;
+    color: gold;
+    background-color: black;
 }
 
 #footer-navbar,
 #location-details{
     display: flex;
     flex-direction: column;
+}
+
+#footer-navbar a{
+    color: gold;
+}
+
+#footer-navbar a:hover,
+#footer-navbar a:active{
+    transform: scale(1.1);
+    margin-left: 40px;
+    color: red;
+}
+
+#footer h2{
+    font-size: 3rem;
+}
+
+.underline{
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+#footer p{
+    font-size: 1.3rem;
 }
