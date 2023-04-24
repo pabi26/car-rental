@@ -19,8 +19,8 @@ closeNavBarIcon.addEventListener('click', function() {
 
 for (let i = 0; i < cars.length; i++) {
     let carDetails = ` 
-                        <button id="${cars[i].mark}${cars[i].model}">${cars[i].mark}${cars[i].model}</button>
-                        <div id="${cars[i].mark}" class="car">
+                        <button id="${cars[i].mark}">${cars[i].mark} ${cars[i].model}</button>
+                        <div id="${cars[i].model}">
                             <img src="${cars[i].image}" alt="">
                             <table>
                                 <thead>
@@ -53,6 +53,51 @@ for (let i = 0; i < cars.length; i++) {
                         </div>
                   `;
     document.getElementById('car-display').innerHTML += carDetails;
-  }
+}
   
+document.getElementById('question-one').addEventListener('click', function() {
+    const questionanswer = document.getElementById('question-one-answer')
+    if (questionanswer.style.display === 'none') {
+        questionanswer.style.display = 'block'
+    } else {
+        questionanswer.style.display = 'none'
+    }
+})
 
+
+document.getElementById('question-two').addEventListener('click', function() {
+    const questionanswer = document.getElementById('question-two-answer')
+    if (questionanswer.style.display === 'none') {
+        questionanswer.style.display = 'block'
+    } else {
+        questionanswer.style.display = 'none'
+    }
+})
+
+document.getElementById('question-three').addEventListener('click', function() {
+    const questionanswer = document.getElementById('question-three-answer')
+    if (questionanswer.style.display === 'none') {
+        questionanswer.style.display = 'block'
+    } else {
+        questionanswer.style.display = 'none'
+    }
+})
+
+
+document.getElementById('question-class').addEventListener('click', function() {
+    const questionanswer = document.getElementById('question-class-answer')
+    if (questionanswer.style.display === 'none') {
+        questionanswer.style.display = 'block'
+    } else {
+        questionanswer.style.display = 'none'
+    }
+})
+
+document.getElementById('Ferrari').addEventListener('click', function() {
+    const car = document.getElementById('F8-Tributo')
+    if (car.style.display === 'none') {
+        car.style.display = 'block'
+    } else {
+        car.style.display = 'none'
+    }
+})

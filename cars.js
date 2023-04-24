@@ -1,6 +1,6 @@
 export const cars = [
     {
-      model: "F8 Tributo",
+      model: "F8-Tributo",
       mark: "Ferrari",
       year: 2021,
       transmission: "Automatic",
@@ -9,7 +9,7 @@ export const cars = [
       image: "images/FerrariF8Tributo.jpg"
     },
     {
-      model: "720S Spider",
+      model: "720S-Spider",
       mark: "McLaren",
       year: 2022,
       transmission: "Manual",
@@ -27,7 +27,7 @@ export const cars = [
       image: "images/Lamborghini Aventador.png"
     },
     {
-      model: "GT3 RS",
+      model: "GT3-RS",
       mark: "Porsche",
       year: 2023,
       transmission: "Automatic",
@@ -45,7 +45,7 @@ export const cars = [
       image: "iimages/Nissan-GT-R-PNG-Transparent.png"
     },
     {
-      model: "C8 Z51",
+      model: "C8-Z51",
       mark: "Corvette",
       year: 2023,
       transmission: "Automatic",
@@ -72,7 +72,7 @@ export const cars = [
       image: "images/Aston Martin Vantage.png"
     },
     {
-      model: "Sport SVR",
+      model: "Sport-SVR",
       mark: "Range Rover",
       year: 2023,
       transmission: "Automatic",
@@ -81,7 +81,7 @@ export const cars = [
       image: "images/Range Rover Sport SVR.png"
     },
     {
-      model: "Continental GT",
+      model: "Continental-GT",
       mark: "Bentley",
       year: 2023,
       transmission: "Automatic",

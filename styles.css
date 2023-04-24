@@ -195,17 +195,18 @@ input{
 #search{
     margin-top: 10px;
     font-size: 1.2rem;
-    color: black;
+    background-color: #000000;
+    color: gold;
+    border: 1px gold solid;
     cursor: pointer;
     border-radius: 15px;
-    border: none;
 }
 
 #search:hover,
 #search:active{
-    background-color: #000000;
+    transform: scale(1.1);
+    background-color: #14213d;
     color: gold;
-    border: 1px gold solid;
 }
 
 /*Section 2*/ 
@@ -412,7 +413,7 @@ table td{
 
 /*Questions section*/ 
 
-#wuestions{
+#questions{
     width: 400px;
 }
 
@@ -520,5 +521,397 @@ table td{
 }
 
 .number{
-    color: gold;
+    color: gold !important;
+}
+
+@media screen and (min-width: 768px) {
+    /*Section */ 
+    section {
+      max-width: 550px;
+    }
+    header i{
+        margin-left: 180px;
+    }
+    
+    /*Section 1 */ 
+    #one h2{
+        font-size: 2rem;
+        
+    }
+
+    #one h1{
+        font-size: 4rem;
+        
+    }
+
+    #one p{
+        font-size: 1.5rem;
+        
+    }
+
+    /* Booking Section */ 
+
+    #booking{
+        max-width: 450px;
+    }
+
+    #booking form{
+        max-width: 400px;
+        border: 1px black solid;
+        padding: 10px 0px 15px 0px;
+        background-color: #14213d;
+        border-radius: 15px;
+    }
+    
+    #booking h3{
+        font-size: 2.2rem;
+    }
+    
+    select,
+    input{
+        font-size: 1.2rem;
+    }
+
+    #search{
+        font-size: 1.5rem;
+    }
+
+    /*Section 2*/ 
+    
+    #two h3{
+        font-size: 2rem;
+    }
+    
+    #two i{
+        font-size: 5rem;
+        color: #14213d;
+    }
+    
+    /*Section 3 */ 
+
+    
+    #three h2{
+        font-size: 3.2rem;
+    }
+    
+    #three p{
+        font-size: 1.5rem;
+    }
+    
+    
+    #car-display button{
+        font-size: 1.7rem;
+    }
+    
+    #car-display img{
+        width: 400px;
+    }
+    
+    
+    
+    table{
+        width: 300px;
+        font-size: 1.2rem;
+    }
+    
+    thead th{
+        font-size: 1.9rem;
+    }
+
+    #car-display .reserve-btn{
+        width: 300px;
+    }
+    
+   
+
+    /*Section 4 */ 
+    #four h2{
+        font-size: 2.7rem;
+    }
+
+    #four li{
+        font-size: 1.4rem;
+    }
+
+    #four-part-two img{
+        width: 300px;
+    }
+
+    #four-part-two i{
+        font-size: 6rem;
+    }
+
+
+
+    /*Section 5 */ 
+    #five h3{
+        font-size: 1.7rem;
+    }
+    
+    #five h2{
+        font-size: 2.7rem;
+    }
+    
+    
+    #five #reviews p{
+        font-size: 1.5rem;
+    }
+    
+    #five .review-person{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-right: -15px;
+    }
+    
+    #five .review-person h4{
+        right: 65px;
+        font-size: 1.5rem;
+    }
+    
+    #five #review{
+        margin-bottom: 40px;
+    }
+  
+    
+    /* Questions Section */ 
+
+    #questions h2{
+        font-size: 3.5rem;
+    }
+    
+    #questions button{
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+    /*App Section*/ 
+
+    #app h2{
+        font-size: 3.3rem;
+    }
+
+    #app{
+        font-size: 1.3rem;
+    }
+
+    #app img{
+        width: 400px;
+    }
+
+    #app #apple{
+        width: 355px;
+        height: 100px;
+    }
+
+
+    /*Footer Section */ 
+
+    #footer h2{
+        font-size: 3.5rem;
+    }
+
+    .underline{
+        text-decoration: underline;
+        font-size: 2.5rem;
+    }
+
+    #footer p{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    /*Section */ 
+    section {
+      max-width: 950px;
+    }
+    
+    /*Section 1 */ 
+    #one{
+        margin-top: 100px;
+    }
+
+    #one h2{
+        font-size: 3.5rem;
+        
+    }
+
+    #one h1{
+        font-size: 7rem;
+        
+    }
+
+    #one p{
+        font-size: 2rem;
+        
+    }
+
+    /* Booking Section */ 
+
+    #booking{
+        max-width: 500px;
+    }
+
+    #booking form{
+        max-width: 400px;
+        border: 1px black solid;
+        padding: 10px 0px 15px 0px;
+        background-color: #14213d;
+        border-radius: 15px;
+    }
+    
+    #booking h3{
+        font-size: 2.2rem;
+    }
+    
+    select,
+    input{
+        font-size: 1.2rem;
+    }
+
+    #search{
+        font-size: 1.5rem;
+    }
+
+    /*Section 2*/ 
+    
+    #two h3{
+        font-size: 3.5rem;
+    }
+    
+    #two i{
+        font-size: 5rem;
+    }
+    
+    #two p{
+        font-size: 1.5rem;
+    }
+    
+    /*Section 3 */ 
+
+    
+    #three h2{
+        font-size: 4rem;
+    }
+    
+    #three p{
+        font-size: 1.7rem;
+    }
+    
+    
+    #car-display button{
+        font-size: 2rem;
+        width: 400px;
+    }
+    
+    #car-display img{
+        width: 500px;
+    }
+    
+    
+    
+    table{
+        width: 400px;
+        font-size: 1.5rem;
+    }
+    
+    thead th{
+        font-size: 2.1rem;
+    }
+
+    #car-display .reserve-btn{
+        width: 400px;
+    }
+    
+   
+
+    /*Section 4 */ 
+    #four h2{
+        font-size: 3rem;
+    }
+
+    #four li{
+        font-size: 1.6rem;
+    }
+
+    #four-part-two img{
+        width: 400px;
+    }
+
+    #four-part-two i{
+        font-size: 8rem;
+    }
+
+
+
+    /*Section 5 */ 
+    #five h3{
+        font-size: 1.9rem;
+    }
+    
+    #five h2{
+        font-size: 3.2rem;
+    }
+    
+    
+    #five #reviews p{
+        font-size: 1.5rem;
+    }
+    
+    #five .review-person h4{
+        right: 65px;
+        font-size: 1.5rem;
+    }
+    
+    #five #review{
+        margin-bottom: 40px;
+    }
+  
+    
+    /* Questions Section */ 
+
+    #questions h2{
+        font-size: 3.5rem;
+    }
+    
+    #questions button{
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+    /*App Section*/ 
+
+    #app h2{
+        font-size: 3.3rem;
+    }
+
+    #app{
+        font-size: 1.3rem;
+    }
+
+    #app img{
+        width: 400px;
+    }
+
+    #app #apple{
+        width: 355px;
+        height: 100px;
+    }
+
+
+    /*Footer Section */ 
+
+    #footer h2{
+        font-size: 3.5rem;
+    }
+
+    .underline{
+        text-decoration: underline;
+        font-size: 2.5rem;
+    }
+
+    #footer p{
+        font-size: 1.7rem;
+    }
+
 }
