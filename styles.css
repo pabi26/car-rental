@@ -292,7 +292,6 @@ table{
 table th{
     text-align: center;
     padding: 5px;
-    
     background-color: white;
 }
 
@@ -313,6 +312,7 @@ table td{
 .car{
     display: none;
 }
+
 
 
 /*Section 4*/ 

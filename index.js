@@ -19,41 +19,65 @@ closeNavBarIcon.addEventListener('click', function() {
 
 for (let i = 0; i < cars.length; i++) {
     let carDetails = ` 
-                        <button id="${cars[i].mark}">${cars[i].mark} ${cars[i].model}</button>
-                        <div id="${cars[i].model}">
-                            <img src="${cars[i].image}" alt="">
-                            <table>
-                                <thead>
-                                    <th colspan="2">$${cars[i].price}/rent per day</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Model</th>
-                                        <td>${cars[i].model}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Mark</th>
-                                        <td>${cars[i].mark}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Year</th>
-                                        <td>${cars[i].year}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Transmission</th>
-                                        <td>${cars[i].transmission}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Horsepower</th>
-                                        <td>${cars[i].horsepower}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <button class="reserve-btn">Reserve Now</button>
-                        </div>
-                  `;
+        <button id="car-${i}">${cars[i].mark} ${cars[i].model}</button>
+        <div id="car-table-${i}" style="display: none;">
+            <img src="${cars[i].image}" alt="">
+            <table>
+                <thead>
+                    <th colspan="2">$${cars[i].price}/rent per day</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Model</th>
+                        <td>${cars[i].model}</td>
+                    </tr>
+                    <tr>
+                        <th>Mark</th>
+                        <td>${cars[i].mark}</td>
+                    </tr>
+                    <tr>
+                        <th>Year</th>
+                        <td>${cars[i].year}</td>
+                    </tr>
+                    <tr>
+                        <th>Transmission</th>
+                        <td>${cars[i].transmission}</td>
+                    </tr>
+                    <tr>
+                        <th>Horsepower</th>
+                        <td>${cars[i].horsepower}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="reserve-btn">Reserve Now</button>
+        </div>
+    `;
     document.getElementById('car-display').innerHTML += carDetails;
+    displayCarTable();
 }
+
+
+function displayCarTable() {
+    const carButtons = document.querySelectorAll('#car-display button[id^="car-"]');
+    carButtons.forEach(button => {
+      const carIndex = button.id.split('-')[1];
+      const carTable = document.getElementById(`car-table-${carIndex}`);
+      button.addEventListener('click', () => {
+        // hide all car tables first
+        carButtons.forEach(otherButton => {
+          const otherIndex = otherButton.id.split('-')[1];
+          const otherTable = document.getElementById(`car-table-${otherIndex}`);
+          if (otherTable.style.display !== 'none' && otherIndex !== carIndex) {
+            otherTable.style.display = 'none';
+          }
+        });
+        // toggle display of clicked car table
+        carTable.style.display = carTable.style.display === 'none' ? 'block' : 'none';
+      });
+    });
+  }
+  
+
   
 document.getElementById('question-one').addEventListener('click', function() {
     const questionanswer = document.getElementById('question-one-answer')
@@ -93,11 +117,3 @@ document.getElementById('question-class').addEventListener('click', function() {
     }
 })
 
-document.getElementById('Ferrari').addEventListener('click', function() {
-    const car = document.getElementById('F8-Tributo')
-    if (car.style.display === 'none') {
-        car.style.display = 'block'
-    } else {
-        car.style.display = 'none'
-    }
-})
